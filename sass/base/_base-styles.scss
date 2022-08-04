@@ -5,8 +5,8 @@ html {
 body {
 	font-family: "Roboto", sans-serif;
 	font-weight: 400;
-	color: var(--text-main-color);
-	background-color: var(--white-color);
+	color: $text-main-color ;
+	background-color: $main-color;
 }
 
 a {
