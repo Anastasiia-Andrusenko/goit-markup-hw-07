@@ -55,19 +55,19 @@
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	border-radius: 50%;
 	cursor: pointer;
+}
 
-	.icon-close {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-	
-		fill: #000000;
-	
-		transition: fill 250ms $cubic-bezier;
+.icon-close {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 
-		.btn-close:hover & {
-			fill: $accent-color;
-		}
+	fill: #000000;
+
+	transition: fill 250ms $cubic-bezier;
+
+	.btn-close:hover & {
+		fill: $accent-color;
 	}
 }
 
